@@ -13,6 +13,12 @@ using Chapter10_PersonStudent; // I added a reference to the directory of the Ch
  * that I made myself. 
  * 
  * This project needs to know where the Chapter10_PersonStudent.dll is located. 
+ * 
+ * After a DLL is created, it is not easy to view its contents. In order to view it ILDASM must be 
+ * used. It must be added as a tool.
+ * Tools > External Tools > Add > add the exe to the command, "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\ildasm.exe"
+ * Now IL DASM can be run from the Tools. Open the DLL and limited information about the contents of the DLL
+ * can be viewed. Page 606 for more information.
  */
 
 namespace Chapter10_PresentationGUI
