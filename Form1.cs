@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Chapter10_PersonStudent; // I added a reference to the directory of the Chapter10_PersonStudent.dll
 /*
+ * What makes this project special is that it relies on Chapter10_PersonStudent.dll, which is a library
+ * that I made myself. 
+ * 
  * This project needs to know where the Chapter10_PersonStudent.dll is located. 
  */
 
