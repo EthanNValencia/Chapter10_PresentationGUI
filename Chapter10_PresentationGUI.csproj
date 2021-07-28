@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Chapter10_PersonStudent">
+      <HintPath>..\..\VisualStudioRepos\Chapter10_PersonStudent\bin\Debug\netcoreapp3.1\Chapter10_PersonStudent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
